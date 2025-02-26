@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import "../assets/styles/outputpage.css";
-import '../assets/styles/responsiveness.css'
+import logo from '../assets/images/logo.png'
 
 const OutputPage = () => {
   const location = useLocation();
@@ -9,7 +9,7 @@ const OutputPage = () => {
 
   return (
     <main className="main">
-     
+      <img src={logo}/>
       <div className="heading">FINAL REPORT</div>
       <div className="main-content-for-output-page">
         

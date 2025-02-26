@@ -1,11 +1,11 @@
 import React from "react";
 import "../assets/styles/aboutus.css";
-import '../assets/styles/responsiveness.css'
+import logo from '../assets/images/logo.png'
 
 const AboutUs = () => {
   return (
     <main className="main">
-      
+      <img src={logo} />
       <div className="heading">ABOUT US</div>
       <div className="main-content-for-input-page-and-other-pages">
         <div className="main-content-writing">

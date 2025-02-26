@@ -1,13 +1,13 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../assets/styles/mechanism.css";
-import '../assets/styles/responsiveness.css'
+import logo from '../assets/images/logo.png'
 
 const mechanism = () => {
   return (
     <>
       
       <main className="main">
+        <img src={logo}/>
         <div className="heading">HOW IT WORKS?</div>
         <div className="main-content-for-input-page-and-other-pages">
           <div className="main-content-writing">

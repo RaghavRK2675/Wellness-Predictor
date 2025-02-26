@@ -87,78 +87,38 @@
     text-align: center;
 }
 
-@media screen and (max-width: 600px){
-    .navbar-link{
-        font-size: 3.1vw;
-        width: 30%;
+@media screen and (max-width: 768px){
+    
+    .main-content-for-output-page{
+        flex-direction: column;
     }
 
-    .navbar-logo-for-main-page{
-        width: 40%;
+    .report{
+        width: 100%;
     }
 
-    .navbar-logo-for-main-page img{
-        width: 99%;
-        height: 55%;
+    .report-default-template{
+        height: 40%;
     }
 
-    #main-text-and-button-box::before {
-        background-size: 99% 75%;
-
+    .report-dynamic-template{
+        height: 60%;
     }
 
-    #main-text{
-        font-size: 8vw;
+    .ai-corner{
+        width: 100%;
     }
 
-    .main-button{
-        font-size: 3vw;
-        width: 45%;
-        height: 10%;
-        position: absolute;
-        top: 65%;
+    .ai-corner-heading{
+        height: 20%;
     }
 
-    #navbar-logo-for-other-pages img{
-        width: 55%;
-        height: 70%;
+    .ai-prompt-box{
+        height: 40%;
     }
 
-    .label-container{
-        font-size: 3.2vw;
+    .ai-response-box{
+        height: 40%;
     }
-
-    input, select{
-        font-size: 3vw;
-    }
-
-    #submit-button{
-        font-size: 3.5vw;
-        margin-top: 5%;
-    }
-
-    #report-default-template{
-        align-items: flex-start;
-    }
-
-    #ai-corner-heading{
-        font-size: 4vw;
-    }
-
-    .heading{
-        height: 7%;
-    }
-
-    .main-content-heading{
-        font-size: 2.8vw;
-        
-    }
-
-    .main-content-description{
-        font-size: 3vw;
-    }
-
-    .main-content-footer{
-        font-size: 2.7vw;
-    }
+    
 }

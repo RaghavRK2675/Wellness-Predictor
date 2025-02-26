@@ -1,13 +1,12 @@
 import React from 'react'
 import '../assets/styles/navbar.css'
-import '../assets/styles/responsiveness.css'
 import logo2 from '../assets/images/logo_2.png'
 import { Link } from "react-router-dom";
 
 const navbar = () => {
     return (
-      <header>
-        <nav>
+      <header className="header">
+        <nav className="navbar">
           
           <Link to="/mechanism" className="navbar-link">MECHANISM</Link>
           

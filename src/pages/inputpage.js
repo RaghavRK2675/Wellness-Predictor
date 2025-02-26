@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "../assets/styles/form.css";
-import '../assets/styles/responsiveness.css'
+import logo from '../assets/images/logo.png'
 
 const InputPage = () => {
   const navigate = useNavigate();
@@ -33,6 +33,7 @@ const InputPage = () => {
 
   return (
     <main className="main">
+      <img src={logo}/>
       <div className="heading">ENTER YOUR DETAILS</div>
       <div className="main-content-for-input-page-and-other-pages">
         <form onSubmit={handleSubmit} className="form">
