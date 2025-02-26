@@ -1,0 +1,164 @@
+.main{
+    height: 43.4vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.heading{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content-for-output-page{
+    height: 95%;
+    width: 100%;
+    display: flex;
+}
+
+.report{
+    border: 1px solid green;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.report-default-template{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 2;
+}
+
+.report-dynamic-template{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ai-corner{
+    border-top: 1px solid green;
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ai-corner-heading{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.ai-prompt-box{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ai-response-box{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px){
+    .navbar-link{
+        font-size: 3.1vw;
+        width: 30%;
+    }
+
+    .navbar-logo-for-main-page{
+        width: 40%;
+    }
+
+    .navbar-logo-for-main-page img{
+        width: 99%;
+        height: 55%;
+    }
+
+    #main-text-and-button-box::before {
+        background-size: 99% 75%;
+
+    }
+
+    #main-text{
+        font-size: 8vw;
+    }
+
+    .main-button{
+        font-size: 3vw;
+        width: 45%;
+        height: 10%;
+        position: absolute;
+        top: 65%;
+    }
+
+    #navbar-logo-for-other-pages img{
+        width: 55%;
+        height: 70%;
+    }
+
+    .label-container{
+        font-size: 3.2vw;
+    }
+
+    input, select{
+        font-size: 3vw;
+    }
+
+    #submit-button{
+        font-size: 3.5vw;
+        margin-top: 5%;
+    }
+
+    #report-default-template{
+        align-items: flex-start;
+    }
+
+    #ai-corner-heading{
+        font-size: 4vw;
+    }
+
+    .heading{
+        height: 7%;
+    }
+
+    .main-content-heading{
+        font-size: 2.8vw;
+        
+    }
+
+    .main-content-description{
+        font-size: 3vw;
+    }
+
+    .main-content-footer{
+        font-size: 2.7vw;
+    }
+}

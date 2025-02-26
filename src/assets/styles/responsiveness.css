@@ -1,50 +1,4 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: all 0.5s;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Sen:wght@400..800&display=swap');
-
-.poppins-extralight {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-
-
-html,body{
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(-45deg, rgb(193, 193, 193), rgba(0, 255, 247, 0.133), rgb(202, 239, 249), #00fd0432);
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
-  
-  letter-spacing: 0.2vw;
-  font-family: 'Poppins', sans-serif;
-}
-
-@keyframes gradient {
-  0% {
-  background-position: 0% 50%;
-  }
-  50% {
-  background-position: 100% 50%;
-  }
-  100% {
-  background-position: 0% 50%;
-  }
-  }
-
-  @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     .navbar-link{
         font-size: 3.1vw;
         width: 30%;
@@ -119,3 +73,4 @@ html,body{
         font-size: 2.7vw;
     }
 }
+

@@ -1,50 +1,42 @@
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  transition: all 0.5s;
+
+
+header{
+    height: 4vw;
+    border-bottom: 1px solid green;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Sen:wght@400..800&display=swap');
-
-.poppins-extralight {
-  font-family: "Poppins", serif;
-  font-weight: 200;
-  font-style: normal;
+nav{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.poppins-light {
-  font-family: "Poppins", serif;
-  font-weight: 300;
-  font-style: normal;
+.navbar-link{
+    width: 15%;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: green;
+    cursor: pointer;
 }
 
-
-
-html,body{
-  height: 100%;
-  width: 100%;
-  background: linear-gradient(-45deg, rgb(193, 193, 193), rgba(0, 255, 247, 0.133), rgb(202, 239, 249), #00fd0432);
-  background-size: 200% 200%;
-  animation: gradient 10s ease infinite;
-  
-  letter-spacing: 0.2vw;
-  font-family: 'Poppins', sans-serif;
+.navbar-logo-for-main-page{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-@keyframes gradient {
-  0% {
-  background-position: 0% 50%;
-  }
-  50% {
-  background-position: 100% 50%;
-  }
-  100% {
-  background-position: 0% 50%;
-  }
-  }
+.navbar-logo-for-main-page img{
+    width: 80%;
+    height: 70%;
+}
 
-  @media screen and (max-width: 600px){
+@media screen and (max-width: 600px){
     .navbar-link{
         font-size: 3.1vw;
         width: 30%;
